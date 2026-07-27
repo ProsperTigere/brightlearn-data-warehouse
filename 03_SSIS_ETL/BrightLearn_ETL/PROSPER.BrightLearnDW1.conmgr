@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="PROSPER.BrightLearnDW1"
+  DTS:DTSID="{4374245B-DD61-402F-B7A8-3012DF178D2E}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=PROSPER;Initial Catalog=BrightLearnDW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-BrightLearn_ETL-{4374245B-DD61-402F-B7A8-3012DF178D2E}PROSPER.BrightLearnDW1;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
